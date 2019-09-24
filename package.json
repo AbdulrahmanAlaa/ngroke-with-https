@@ -1,0 +1,15 @@
+{
+  "name": "ngr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ngrok authtoken 1Puwg037qsjOMYkthg5sYKryP7A_3fFJNzwfuAkr6dDoCw2Si && ngrok http -host-header=rewrite https://localhost:4200"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ngrok": "^3.2.5"
+  }
+}
